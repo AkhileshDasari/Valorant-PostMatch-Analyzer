@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "video_name": "source.mp4",
+    "duration": 37.93333333333333,
+    "width": 1920,
+    "height": 1080
+  },
+  "stats": {
+    "n_engagements": 2,
+    "n_enemy_detections": 29,
+    "avg_confidence": 0.6610983312129974,
+    "class_counts": {
+      "teammate": 6,
+      "enemy head": 29,
+      "crosshair": 1
+    }
+  },
+  "engagements": [
+    {
+      "index": 1,
+      "start": 10.7,
+      "end": 11.3,
+      "detections": 8
+    },
+    {
+      "index": 2,
+      "start": 28.8,
+      "end": 34.3,
+      "detections": 21
+    }
+  ],
+  "clips": [
+    {
+      "file": "highlight_01_8s.mp4",
+      "index": 1,
+      "start": 8.7,
+      "end": 13.3,
+      "detections": 8,
+      "raw_start": 10.7,
+      "raw_end": 11.3
+    },
+    {
+      "file": "highlight_02_26s.mp4",
+      "index": 2,
+      "start": 26.8,
+      "end": 36.3,
+      "detections": 21,
+      "raw_start": 28.8,
+      "raw_end": 34.3
+    }
+  ],
+  "frame_captures": [
+    {
+      "path": "frame_0000642_10.7s.jpg",
+      "t": 10.7,
+      "n_detections": 1,
+      "classes": [
+        "enemy head"
+      ],
+      "max_conf": 0.879824161529541
+    },
+    {
+      "path": "frame_0001728_28.8s.jpg",
+      "t": 28.8,
+      "n_detections": 1,
+      "classes": [
+        "enemy head"
+      ],
+      "max_conf": 0.783986508846283
+    },
+    {
+      "path": "frame_0001818_30.3s.jpg",
+      "t": 30.3,
+      "n_detections": 1,
+      "classes": [
+        "enemy head"
+      ],
+      "max_conf": 0.47761595249176025
+    },
+    {
+      "path": "frame_0001956_32.6s.jpg",
+      "t": 32.6,
+      "n_detections": 1,
+      "classes": [
+        "enemy head"
+      ],
+      "max_conf": 0.6021164059638977
+    },
+    {
+      "path": "frame_0002046_34.1s.jpg",
+      "t": 34.1,
+      "n_detections": 2,
+      "classes": [
+        "enemy head"
+      ],
+      "max_conf": 0.840469479560852
+    }
+  ],
+  "heatmap_url": "/media/6f6dcc661f4c/heatmap.png",
+  "timeline_url": "/media/6f6dcc661f4c/timeline.png",
+  "video_url": "/media/6f6dcc661f4c/source.mp4",
+  "annotated_video_url": "/media/6f6dcc661f4c/annotated_detection.mp4"
+}

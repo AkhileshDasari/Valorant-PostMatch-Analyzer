@@ -964,7 +964,7 @@
   `;
 
       const vid = document.getElementById('sourceVideo');
-      vid.src = r.video_url;
+      if (vid) { vid.src = r.video_url; }
 
       document.getElementById('timelineImg').src = r.timeline_url + '?t=' + Date.now();
       document.getElementById('heatmapImg').src = r.heatmap_url + '?t=' + Date.now();
