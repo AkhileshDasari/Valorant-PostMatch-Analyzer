@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "video_name": "source.mp4",
+    "duration": 37.93333333333333,
+    "width": 1920,
+    "height": 1080
+  },
+  "stats": {
+    "n_engagements": 3,
+    "n_enemy_detections": 11,
+    "avg_confidence": 0.6782791479067369,
+    "class_counts": {
+      "teammate": 3,
+      "enemy head": 11,
+      "crosshair": 2
+    }
+  },
+  "engagements": [
+    {
+      "index": 1,
+      "start": 10.75,
+      "end": 11.25,
+      "detections": 3
+    },
+    {
+      "index": 2,
+      "start": 30.25,
+      "end": 31.5,
+      "detections": 4
+    },
+    {
+      "index": 3,
+      "start": 34.0,
+      "end": 34.25,
+      "detections": 2
+    }
+  ],
+  "clips": [
+    {
+      "file": "highlight_01_9s.mp4",
+      "index": 1,
+      "start": 9.75,
+      "end": 12.25,
+      "detections": 3,
+      "raw_start": 10.75,
+      "raw_end": 11.25
+    },
+    {
+      "file": "highlight_02_29s.mp4",
+      "index": 2,
+      "start": 29.25,
+      "end": 32.5,
+      "detections": 4,
+      "raw_start": 30.25,
+      "raw_end": 31.5
+    },
+    {
+      "file": "highlight_03_33s.mp4",
+      "index": 3,
+      "start": 33.0,
+      "end": 35.25,
+      "detections": 2,
+      "raw_start": 34.0,
+      "raw_end": 34.25
+    }
+  ],
+  "frame_captures": [
+    {
+      "path": "frame_0000645_10.8s.jpg",
+      "t": 10.75,
+      "n_detections": 1,
+      "classes": [
+        "enemy head"
+      ],
+      "max_conf": 0.8843263387680054
+    },
+    {
+      "path": "frame_0000825_13.8s.jpg",
+      "t": 13.75,
+      "n_detections": 1,
+      "classes": [
+        "enemy head"
+      ],
+      "max_conf": 0.4463210701942444
+    },
+    {
+      "path": "frame_0001740_29.0s.jpg",
+      "t": 29.0,
+      "n_detections": 2,
+      "classes": [
+        "crosshair",
+        "enemy head"
+      ],
+      "max_conf": 0.9155780076980591
+    },
+    {
+      "path": "frame_0001845_30.8s.jpg",
+      "t": 30.75,
+      "n_detections": 1,
+      "classes": [
+        "enemy head"
+      ],
+      "max_conf": 0.6754122376441956
+    },
+    {
+      "path": "frame_0002040_34.0s.jpg",
+      "t": 34.0,
+      "n_detections": 1,
+      "classes": [
+        "enemy head"
+      ],
+      "max_conf": 0.44107380509376526
+    }
+  ],
+  "heatmap_url": "/media/5da539f89dfb/heatmap.png",
+  "timeline_url": "/media/5da539f89dfb/timeline.png",
+  "video_url": "/media/5da539f89dfb/source.mp4",
+  "annotated_video_url": "/media/5da539f89dfb/annotated_detection.mp4"
+}
